@@ -8,7 +8,7 @@ class NethackInterfaces < Formula
   # Don't remove save folder
   skip_clean "libexec/save"
 
-  depends_on "qt"
+  depends_on "qt@4"
   depends_on "sdl2"
   depends_on "sdl2_image"
   depends_on "pkg-config" => :build
